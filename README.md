@@ -28,7 +28,6 @@ INNER JOIN salaries
 ON employees.emp_no = salaries.emp_no
 ORDER BY employees.emp_no
 
-
 ### 2. List first name, last name, and hire date for employees who were hired in 1986.
 
 
