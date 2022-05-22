@@ -22,11 +22,7 @@ Inspect the CSVs and sketch out an ERD of the tables
 Once you have a complete database, perform these steps:
 
 ### 1. List the following details of each employee: employee number, last name, first name, sex, and salary.
-SELECT employees.emp_no, employees.last_name, employees.first_name, employees.sex, salaries.salary
-FROM employees
-INNER JOIN salaries 
-ON employees.emp_no = salaries.emp_no
-ORDER BY employees.emp_no
+
 
 ### 2. List first name, last name, and hire date for employees who were hired in 1986.
 
